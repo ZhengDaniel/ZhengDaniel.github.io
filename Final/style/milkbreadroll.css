@@ -1,0 +1,38 @@
+body {
+            margin: 50px;
+            background-image: url("../image/milk.jpeg");
+            color: #4f8c7c;
+        }
+    #con {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        #le {
+            float: left;
+            padding-right: 200px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        #ingred {
+             background: #FFFFFF;
+             padding-bottom: 2px;
+             padding-top: 2px;
+             padding-right: 15px;
+             padding-left: 10px;
+        }
+
+        #ri {
+            float: right;
+            padding: 100px;
+        }
+
+        #mi {
+            float: inherit;
+            background: #FFFFFF;
+        }
+
+        #directions {
+            padding-left: 15px;
+            padding-right: 15px;
+        }

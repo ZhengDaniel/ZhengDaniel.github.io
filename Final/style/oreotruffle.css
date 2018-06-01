@@ -1,0 +1,43 @@
+       body {
+            margin: 50px;
+            background-image: url("../image/pastel.jpg");
+            background-repeat: repeat-x;
+            color: #4f8c7c;
+        }
+
+      #cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        #l {
+            float: left;
+            padding-right: 200px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        #ingred {
+             background: #FFFFFF;
+             padding-bottom: 2px;
+             padding-top: 2px;
+             padding-right: 15px;
+             padding-left: 10px;
+             font-size: 28px;
+        }
+
+        #r {
+            float: right;
+            padding: 100px;
+
+        }
+
+        #mid {
+            float: inherit;
+            background: #FFFFFF;
+        }
+
+        #direct {
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 28px;
+        }

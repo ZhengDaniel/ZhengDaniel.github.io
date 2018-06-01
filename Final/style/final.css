@@ -1,0 +1,83 @@
+html {
+   /* background-color: #e3e3e33d; */
+   background-image: url("../image/fback.jpg");
+}
+
+#title {
+    padding: 1px;
+    height: 125px;
+    width: 1606px;
+    margin: auto;
+    background-color: #e7e7e7;
+    text-align: center;
+        }
+
+#sub1 {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 10px;
+}
+
+#wrap {
+    width: 1600px;
+}
+
+.block {
+    padding: 15px;
+}
+
+.block_2 {
+    padding: 5px;
+}
+
+#image {
+    border: #FFFFFF;
+    margin-left: 275px;
+    float: left;
+    display: block;
+    }
+
+/* Table testing */
+
+.Recipe {
+    float: right;
+    height: 500px;
+    width: 500px;
+    background-color:#f2f2f2;
+    border-collapse:collapse;
+    border-width:2px;
+    border-color:#8c8c8c;
+    border-style:double;
+    color:#000000;
+            }
+.Recipe td,
+.Recipe th {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-width:2px;
+    border-color:#57575799;
+    border-style:solid;
+    padding: 10px;
+        }
+.Recipe thead {
+    background-color:#c1c1c1;
+        }
+
+/* Table testing */
+
+a:link {                /* Default link color */
+    color: #3f2bb7;
+}
+
+a:visited {                /* link color when visited */
+    color: #2ea2ba;
+}
+
+a:hover {                /* link color when hovered over */
+    color: #a119bc;
+}
+
+a:active {                /* link color when clicked */
+    color: #e06eff;
+}

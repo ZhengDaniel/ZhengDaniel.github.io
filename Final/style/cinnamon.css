@@ -1,0 +1,50 @@
+body {
+            margin: 50px;
+            background-image: url("../image/back.jpg");
+            color: #a0142e;
+            font-size: 16px;
+        }
+    #contain {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        #left {
+            float: left;
+            padding-right: 200px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        #ingredients {
+             background: #FFFFFF;
+             padding-bottom: 2px;
+             padding-top: 2px;
+             padding-right: 15px;
+             padding-left: 10px;
+        }
+
+        #right {
+            float: right;
+            padding: 100px;
+        }
+
+        #middle {
+            float: inherit;
+            background: #FFFFFF;
+        }
+
+        #directions {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #pic {
+            width: 550px ;
+            height: 250px;
+            border-style: double;
+            border-width: 10px;
+            border-color: #a0142e;
+        }
+
+
+
