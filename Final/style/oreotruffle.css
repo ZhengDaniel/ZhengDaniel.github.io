@@ -1,7 +1,6 @@
        body {
             margin: 50px;
-            background-image: url("../image/pastel.jpg");
-            background-repeat: repeat-x;
+            background-image: url("../image/large.jpg");
             color: #4f8c7c;
         }
 
@@ -41,3 +40,11 @@
             padding-right: 15px;
             font-size: 28px;
         }
+
+        #pi {
+            width: 550px;
+            height: 457px;
+            border-style: double;
+            border-width: 10px;
+            border-color: #38cdf7;
+}

@@ -1,12 +1,10 @@
 body {
+            height: 75%;
             margin: 50px;
             background-image: url("../image/milk.jpeg");
             color: #4f8c7c;
         }
-    #con {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+
 
         #le {
             float: left;
@@ -16,15 +14,11 @@ body {
         }
         #ingred {
              background: #FFFFFF;
+             float: left;
              padding-bottom: 2px;
              padding-top: 2px;
              padding-right: 15px;
              padding-left: 10px;
-        }
-
-        #ri {
-            float: right;
-            padding: 100px;
         }
 
         #mi {
@@ -32,7 +26,13 @@ body {
             background: #FFFFFF;
         }
 
-        #directions {
+        #di {
+            float: right;
             padding-left: 15px;
             padding-right: 15px;
+        }
+
+        #wrapper {
+            height: 100%;
+            width: 100%;
         }

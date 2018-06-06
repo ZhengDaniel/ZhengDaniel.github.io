@@ -1,3 +1,8 @@
 body {
     background-image: url(../image/mochi.jpg);
 }
+
+    #wrapper {
+        background-color: white;
+        width: 350px;
+    }
